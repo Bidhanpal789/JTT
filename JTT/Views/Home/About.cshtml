@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<style>
+    body {
+        font-family: "Public Sans", sans-serif;
+    }
+
+    .hero {
+        background: linear-gradient(rgba(13, 44, 84, 0.7), rgba(13, 44, 84, 0.5)), url("/Images/blank-cargo-truck-road.jpg") center/cover no-repeat;
+        color: #fff;
+        height:60vh;
+
+    }
+
+    .timeline::before {
+        content: "";
+        position: absolute;
+        left: 1rem;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background-color: rgba(13,44,84,0.2);
+    }
+
+    .timeline-item {
+        position: relative;
+        padding-left: 2.5rem;
+    }
+
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: 0.7rem;
+            top: 0.5rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #FFC107;
+            border: 2px solid #0D2C54;
+        }
+
+    footer a:hover {
+        color: #FFC107 !important;
+    }
+</style>
+
+
+    <!-- Hero -->
+    <section class="hero d-flex align-items-center text-center py-5">
+        <div class="container py-5 my-5">
+            <h1 class="display-5 fw-bold mb-3">Driving Your Business Forward Since 1998</h1>
+            <p class="lead">Committed to providing reliable, efficient, and safe transport solutions tailored to your business needs.</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-md-6">
+                    <h2 class="fw-bold text-primary">Our Story</h2>
+                    <p>Founded with a single truck and a powerful vision, Joy Tara Transport has grown into a leading logistics partner. Our journey is one of passion, persistence, and a relentless focus on customer satisfaction.</p>
+                    <p>From humble beginnings, we have expanded our fleet, embraced cutting-edge technology, and built a team of dedicated professionals who share our commitment to excellence.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWY0cwAx4OURJJVrspwqfQ8xaHQr2QJtnUG5-Z1Uptz-BSEIRherKis3vN_o_z8Dcd4NQR2H7qJdNes8s4X_QNhr6qKuPI7mgWNjZOYJftLSwPniTZJL9PwBBVyTUJZzGYGdbAXQ-wTlSp701kmVz2EiIH4vYujMOM2vE_piLKnwUZ0eMwBKu3IxuzFrMXLM6Dc1OZ-f7YnqMsof1b2pxftQGkqg2ge272kieX2-B-FDv3eAqlOpdsFjeLI6e_R3IO_egGlhFPMj4"
+                         alt="Our warehouse" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission, Vision, Values -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold text-primary mb-3">Our Mission, Vision & Values</h2>
+            <p class="text-muted mb-5">The principles that guide our every move.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="text-warning display-6 mb-3">🚀</div>
+                        <h5 class="fw-bold">Our Mission</h5>
+                        <p>To provide superior logistics services by investing in our people, technology, and a culture of safety and excellence.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="text-warning display-6 mb-3">👁️</div>
+                        <h5 class="fw-bold">Our Vision</h5>
+                        <p>To be the most trusted and innovative transport and logistics partner recognized for quality and integrity.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="text-warning display-6 mb-3">✔️</div>
+                        <h5 class="fw-bold">Our Values</h5>
+                        <p>Safety First. Customer-Centric. Integrity. Punctuality. Teamwork. Continuous Improvement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold text-primary">Our Journey Through Time</h2>
+            <p class="text-center text-muted mb-5">Key milestones that have shaped our company.</p>
+            <div class="position-relative timeline mx-auto" style="max-width:600px;">
+                <div class="timeline-item mb-4">
+                    <h5 class="fw-bold text-primary">1998 - The Beginning</h5>
+                    <p class="text-muted small">Founded with a single truck and a vision to provide exceptional local delivery services.</p>
+                </div>
+                <div class="timeline-item mb-4">
+                    <h5 class="fw-bold text-primary">2005 - Fleet Expansion</h5>
+                    <p class="text-muted small">Expanded our fleet to 10 trucks, beginning our journey into regional logistics.</p>
+                </div>
+                <div class="timeline-item mb-4">
+                    <h5 class="fw-bold text-primary">2012 - Technology Integration</h5>
+                    <p class="text-muted small">Implemented GPS tracking and fleet management systems for better efficiency.</p>
+                </div>
+                <div class="timeline-item mb-4">
+                    <h5 class="fw-bold text-primary">2020 - National Recognition</h5>
+                    <p class="text-muted small">Awarded “Logistics Partner of the Year” for excellence in service.</p>
+                </div>
+                <div class="timeline-item">
+                    <h5 class="fw-bold text-primary">Today - Looking Ahead</h5>
+                    <p class="text-muted small">Operating a modern fleet of 100+ vehicles and continuing to innovate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold text-primary mb-3">Meet Our Leadership Team</h2>
+            <p class="text-muted mb-5">The professionals guiding our company forward.</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-lg-3">
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkiehqhiNeoQ6QxkCjFeJmzaM4_Z6PPksd2zwh0uAZRQ7YJ56BRsuB74Ysoz8b2BzPlXchdhuHErq10MSfgl0yiWAAjwNtRALl1t_4M4hr1uq5XfHh4-gtgbjm69JOV0dvziAaNggv83r3S1IV8E3p-eMS-dtXdc4iuObMhwxWxAWej-6hCNKz9lRQAzJ91aIavKj07t4mLYYXcoIGp6wYTlEQ6Au9WhqlS4i-JCTegVY8J2Xp5Foacxw4oMIcZ5ZZmfgQMN9ju38"
+                         class="rounded-circle shadow img-fluid mb-3" width="150" height="150" alt="John Doe">
+                    <h6 class="fw-bold">Biman Pal</h6>
+                    <p class="text-warning small">Founder & CEO</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5 text-center text-white" style="background-color:#0D2C54;">
+        <div class="container">
+            <h2 class="fw-bold mb-3">Ready to Partner with a Leader in Transport?</h2>
+            <p class="mb-4">Let us show you how Joy Tara Transport can drive your business forward. Contact us today for a complimentary consultation and quote.</p>
+            <a href="#" class="btn btn-warning text-dark fw-bold me-3">Get a Free Quote</a>
+            <a href="#" class="btn btn-outline-light fw-bold">Contact Us</a>
+        </div>
+    </section>

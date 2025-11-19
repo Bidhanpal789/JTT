@@ -1,0 +1,49 @@
+﻿.navbar-brand {
+    color: #1A557B
+}
+.nav-link {
+    color: #1A557B
+}
+    .nav-link:hover {
+        font-weight: 600;
+        color: #0a293d
+    }
+.bg-logo {
+    background: #fc9e05;
+}
+
+.hero{
+    background-image:url("/Images/Truck.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.feature-box {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+    .feature-box:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+.footer {
+    background-color: #003366;
+    color: white;
+}
+
+    .footer a {
+        color: #FFA500;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}

@@ -1,0 +1,42 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Default: stacked (mobile-first) */
+.navbar {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.main {
+    width: 100%;
+}
+
+/* For larger screens (sidebar layout) */
+@media (min-width: 735px) {
+    .navbar {
+        width: 20vw;
+        height: 100vh;
+        border-bottom: none;
+    }
+
+    .main {
+        width: calc(100vw - 20vw);
+        height: 100vh;
+        overflow-y: auto;
+    }
+}
+
+/* For very small screens (optional hide sidebar) */
+@media (max-width: 485px) {
+    .navbar {
+        display: none;
+    }
+
+    .main {
+        width: 100vw;
+    }
+}
